@@ -17,7 +17,21 @@ p {
 .postcard .postcard-header {
 	display: flex;
 }
+.postcard .postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard .postcard-header h1 {
+	width: 350px;
+	margin: 0;
+}
 .postcard .postcard-body {
 }
 .postcard .postcard-footer {
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-body {
+	display: flex;
 }
