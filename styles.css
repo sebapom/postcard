@@ -1,17 +1,13 @@
 body {
 	background: black;
 }
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
-p {
-	color: blue;
+.p {
+	color: black;
 }
 .postcard {
 	background: white;
 	width: 400px;
-	height: 300px;
+	height: 320px;
 	margin: auto;
 }
 .postcard .postcard-header {
@@ -20,18 +16,35 @@ p {
 .postcard .postcard-header img {
 	width: 50px;
 	height: 50px;
+	margin: 10px;
 }
 .postcard .postcard-header h1 {
 	width: 350px;
-	margin: 0;
+	margin: 10px;
 }
-.postcard .postcard-body {
+.postcard .postcard-body .body-right {
+	width: 600px;
+	margin: 10px;
+	margin-top: 0;
+	font-size: medium;
+}
+.postcard .postcard-body .body-left {
+	width: 600px;
+	margin: 10px;
+	margin-top: 0;
 }
 .postcard .postcard-footer {
+	width: 100%;
 }
+
 .postcard-header {
 	display: flex;
 }
 .postcard-body {
 	display: flex;
+}
+.postcard .postcard-footer .button {
+	padding: 10px;
+	margin-left: 150px;
+	margin-bottom: 20px;
 }
